@@ -4,7 +4,7 @@
 #   Author: Hyy2001X                                      #
 ###########################################################
 
-name: NEWIFI D2
+name: Felix's Router
 
 on:
   repository_dispatch:
@@ -56,7 +56,7 @@ on:
 ### 环境变量设置
 env:
 # 编译时调用的 [.config] 文件名称
-  CONFIG_FILE: d-team_newifi-d2-Clash
+  CONFIG_FILE: d-team_newifi-d2
 # 源码仓库:分支
   DEFAULT_SOURCE: coolsnowwolf/lede:master
 # 删除无用文件以增加编译空间
